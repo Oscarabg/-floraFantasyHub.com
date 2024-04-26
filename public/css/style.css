@@ -168,7 +168,7 @@ a :is(span, .icones-color-green){
 
 .hero-img{
    height: 400px;
-   background-image: url(/public/img/row-img.jpg);
+   background-image: url(../img/row-img.jpg);
    background-size: cover;
    background-position: center;
    object-fit: contain;

@@ -163,7 +163,7 @@ a :is(span, .icones-color-green){
 
 /* section de hero background*/
 .section-hero-3{
-   background-image: url(/public/img/img-principal-3.jpg);
+   background-image: url(../img/img-principal-3.jpg);
    background-size: cover;
    background-position: center;
    height: 300px;
