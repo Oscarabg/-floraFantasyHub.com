@@ -67,7 +67,6 @@ a :is(span, .icones-color-green){
    flex-direction: column;
    position: absolute;
    top: 140px;
-
 }
 
 .link-active:hover + .link-hidden{
@@ -75,7 +74,7 @@ a :is(span, .icones-color-green){
 }
 
 .link-hidden-items{
-   background: beige;
+   background: #fff;
    list-style: none;
    padding: 4px 6px 6px 6px;
    border-radius: 4px;
@@ -158,58 +157,40 @@ a :is(span, .icones-color-green){
 }
 
 /* section de container hero -4 */
-
 .article-hero-4{
-   margin-top: 20px;
+   margin-top: 8px;
+   padding: 12px 1.6%;
+   min-height: 400px;
 }
 
 .figure-hero-4{
-   background-image: url(/public/img/img-principal-4.jpg);
+   background-image: url(../img/img-principal-4.jpg);
    background-size: cover;
    background-position: center;
-   height: 250px;
+   height: 300px;
+   width: 100%;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   border-radius: 5px;
 }
 
 .title-hero-4{
    margin: 30px auto;
+   color: #fff;
    font-size: 3rem;
-}
-
-/* 
-
-.hero-img .hero-link-a{
-   text-decoration: none;
-   font-size: 2rem;
-   margin: 30px;
-   padding: 20px;
-   color: #fff;
-   line-height: 80px;
-}
-
-
-.hero-img .hero-link-span{
-   background: #ffb703;
-   padding: 3px 8px;
-   color: #fff;
-   font-size: 2rem;
    font-family: "Nunito Sans", sans-serif;
-   border-radius: 5px;
-} */
-
+   font-weight: 900;
+}
 
 /* section de produits */
-
 .section-container-products{
-   width: 100vw;
    display: flex;
    justify-content: center;
    align-items: center;
    flex-wrap: wrap;
-   margin-top: 20px;
+   margin-top: -30px;
    padding: 10px 1.6%;
    gap: 25px;
 }
@@ -238,8 +219,8 @@ a :is(span, .icones-color-green){
 .product-flowers > img{
    width: 100%;
    height: 270px;
-   object-fit: cover;
    object-position: center;
+   object-fit: contain;
    border-radius: 5px;
 }
 
@@ -252,6 +233,7 @@ a :is(span, .icones-color-green){
    font-weight: 600;
    position: relative;
 }
+
 .product-flowers h2::before{
    content: "";
     position: absolute;
@@ -262,7 +244,6 @@ a :is(span, .icones-color-green){
     top: 22px;
     bottom: 0px;
 }
-
 
 .product-price{
    text-align: center;
@@ -284,7 +265,7 @@ a :is(span, .icones-color-green){
 /* section de livraison */
 .section-container-livraison{
    margin-top: 30px;
-   padding: 0px 2%;
+   padding: 10px 2%;
 }
 
 .title-livraison{
@@ -298,9 +279,9 @@ a :is(span, .icones-color-green){
 }
 
 .paragraph-txt{
-   margin-top: 30px;
+   margin-top: 25px;
    font-size: 1.1rem;
-   color: #111;
+   color: #333;
    font-family: "Nunito Sans", sans-serif;
 }
 
@@ -317,29 +298,32 @@ a :is(span, .icones-color-green){
 .link-soin{
    background: #8bc34a;
    text-decoration: none;
-   color: #111;
-   font-size: 1.3rem;
-   font-family: "Nunito Sans", sans-serif;
    border-radius: 5px;
    padding: 8px 12px;
 }
 
-.article-soin{
-   margin-top: 20px;
+.link-soin{
+   color: #fff;
+   font-size: 1.3rem;
+   font-family: "Nunito Sans", sans-serif;
+   font-weight: 700;
 }
 
 .title-soins{
    margin-top: 30px;
-   font-size: 1.4rem;
+   font-size: 1.2rem;
    font-family: "Nunito Sans", sans-serif;
    color: #222;
+}
+.article-soin{
+   margin-top: 20px;
 }
 
 .paragraph-soins{
    margin-top: 6px;
    font-size: 1.1rem;
    font-family: "Nunito Sans", sans-serif;
-   color: #111;
+   color: #333;
    margin-bottom: 25px;
 }
 
@@ -349,10 +333,11 @@ a :is(span, .icones-color-green){
    padding-top: 20px;
 }
 
-.section-footer-reseaux .title-reseaux{
+.title-reseaux{
    text-align: center;
-   font-size: 1.3rem;
+   font-size: 1.4rem;
    font-family: "Nunito Sans", sans-serif;
+   font-weight: 900;
    color: #8bc34a;
    font-weight: 500;
 }
@@ -408,18 +393,23 @@ a :is(span, .icones-color-green){
    color: #8bc34a;
    font-family: "Nunito Sans", sans-serif;
 }
-.container-services .lists-items{
+.lists-items{
    list-style: none;
    margin-bottom: 20px;
 }
 
-.lists-items .list-item .list-item-link{
+.list-item-link{
    text-decoration: none;
    color: #000;
    font-size: 1.07rem;
    font-family: "Nunito Sans", sans-serif;
-   line-height: 20px;
+   line-height: 24px;
+}
 
+.paragraph-list{
+   color: #000;
+   font-size: 1.07rem ;
+   font-family: "Nunito Sans", sans-serif;
 }
 
 .lists-items-row{

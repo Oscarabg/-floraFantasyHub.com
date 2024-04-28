@@ -3,8 +3,8 @@
 :root{
    --header: #fff;
    --text-bg-color: #8bc34a;
-
 }
+
 *{
    margin: 0;
    padding: 0;
@@ -47,18 +47,15 @@ a :is(span, .icones-color-green){
    color: #111;
 }
 
-
 .section-container{
    width: 100vw;
 }
-
 
 .link-item{
    color: #fff;
    font-size: 2rem;
    position: relative;
 }
-
 
 .icones-down-layout{
    position: relative;
@@ -79,7 +76,7 @@ a :is(span, .icones-color-green){
 }
 
 .link-hidden-items{
-   background: beige;
+   background: #fff;
    list-style: none;
    padding: 4px 6px 6px 6px;
    border-radius: 4px;
@@ -96,7 +93,6 @@ a :is(span, .icones-color-green){
    font-size: 1rem;
    font-family: "Nunito Sans", sans-serif;
 }
-
 
 .header-container{
    background: #cad2c5;
@@ -123,7 +119,6 @@ a :is(span, .icones-color-green){
    font-family: "Nunito Sans", sans-serif;
    color: #fff;
 }
-
 
 .ul-container .ul-items{
       display:flex;
@@ -163,10 +158,20 @@ a :is(span, .icones-color-green){
 
 /* section de hero background*/
 .section-hero-3{
-   background-image: url(../img/img-principal-3.jpg);
+   margin-top: -40px;
+   padding: 12px 1.6%;
+   min-height: 400px;
+   
+}
+
+.figure-hero-3{
+   background-image: url(../img/img-principal-5.jpg);
    background-size: cover;
    background-position: center;
-   height: 300px;
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
+
 }
 
 .title-hero-3{
@@ -179,13 +184,11 @@ a :is(span, .icones-color-green){
    padding: 120px;
 }
 
-
 /* section d'article */
 .section-article-container{
    display: flex;
    flex-direction: column;
    margin-top: 20px;
-   padding: 20px 20pxpx;
  }
 
  /* Style du titre du formulaire */
@@ -290,11 +293,12 @@ a :is(span, .icones-color-green){
    padding-top: 20px;
 }
 
-.section-footer-reseaux .title-reseaux{
+.title-reseaux{
    text-align: center;
-   font-size: 1.3rem;
-   font-family: "Nunito Sans", sans-serif;
    color: #8bc34a;
+   font-size: 1.4rem;
+   font-family: "Nunito Sans", sans-serif;
+   font-weight: 900;
    font-weight: 500;
 }
 
@@ -324,7 +328,6 @@ a :is(span, .icones-color-green){
 
 .list-reseaux-a{
    color: #fff;
-   
 }
 
 .section-conatiner-services{
@@ -349,18 +352,31 @@ a :is(span, .icones-color-green){
    color: #8bc34a;
    font-family: "Nunito Sans", sans-serif;
 }
-.container-services .lists-items{
+
+.lists-items{
    list-style: none;
    margin-bottom: 20px;
 }
 
-.lists-items .list-item .list-item-link{
-   text-decoration: none;
-   color: #000;
+.lists-items.list-item{
    font-size: 1.07rem;
    font-family: "Nunito Sans", sans-serif;
-   line-height: 20px;
+   line-height: 24px;
+}
 
+.list-item-link{
+   text-decoration: none;
+}
+
+.paragraph-list{
+   color: #000;
+   font-size: 1.07rem ;
+   font-family: "Nunito Sans", sans-serif;
+}
+
+.lists-items-row .list-item .list-item-link{
+   font-size: 2.3rem;
+   color: #8bc34a;
 }
 
 .lists-items-row{
@@ -371,9 +387,9 @@ a :is(span, .icones-color-green){
    margin-top: 30px;
 }
 
-.lists-items-row .list-item-link{
-   font-size: 2.3rem;
-   color: #8bc34a;
+.list-item-link{
+   font-size: 1.2rem;
+   color: #000;
 }
 
 .footer-copyright{

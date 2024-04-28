@@ -44,9 +44,14 @@ a :is(span, .icones-color-green){
 }
 
 /* header container */
-
 .section-container{
    width: 100vw;
+}
+
+.icones-down-layout{
+   position: relative;
+   left: 6px;
+   top:2px;
 }
 
 
@@ -56,27 +61,22 @@ a :is(span, .icones-color-green){
    position: relative;
 }
 
-
-.icones-down-layout{
-   position: relative;
-   left: 6px;
-   top:2px;
-}
-
 .link-hidden{
    display: none;
    flex-direction: column;
+   align-items: center;
    position: absolute;
    top: 140px;
-
 }
 
 .link-active:hover + .link-hidden{
    display: block;
+   position: absolute;
+   top: 140px;
 }
 
 .link-hidden-items{
-   background: beige;
+   background: #fff;
    list-style: none;
    padding: 4px 6px 6px 6px;
    border-radius: 4px;
@@ -84,16 +84,16 @@ a :is(span, .icones-color-green){
 
 .link-hidden-item{
    text-decoration: none;
-   line-height: 25px;
+   line-height: 24px;
 }
 
 .link-item-a{
    text-decoration: none;
-   color: #000;
-   font-size: 1rem;
+   color: #222;
+   font-size: 1.1rem;
    font-family: "Nunito Sans", sans-serif;
-
 }
+
 
 .header-container{
    background: #cad2c5;
@@ -121,9 +121,8 @@ a :is(span, .icones-color-green){
    color: #fff;
 }
 
-
 .ul-container .ul-items{
-      display:flex;
+   display:flex;
 }
 
 .ul-container .input-search{
@@ -160,14 +159,14 @@ a :is(span, .icones-color-green){
 /* deuxième header est fini */
 
 /* hero de container */
-
   .hero-container{
-   padding: 12px 1.6%;
+   padding: 20px 1.6%;
    min-height: 400px;
 } 
 
 .hero-img{
-   height: 400px;
+   height: 100%;
+   width: 100%;
    background-image: url(../img/row-img.jpg);
    background-size: cover;
    background-position: center;
@@ -176,23 +175,25 @@ a :is(span, .icones-color-green){
    display: flex;
    justify-content: center;
    align-items: center;
+   border-radius: 5px;
 }
-
 
 .hero-img .hero-link-a{
    text-decoration: none;
-   font-size: 2rem;
+   color: #fff;
+   font-size: 2.9rem;
+   font-family: "Nunito Sans", sans-serif;
+   font-weight: 900;
    margin: 30px;
    padding: 20px;
-   color: #fff;
    line-height: 80px;
 }
-
 
 .hero-img .hero-link-span{
    background: #ffb703;
    padding: 3px 8px;
    color: #fff;
+   font-style: italic;
    font-size: 2rem;
    font-family: "Nunito Sans", sans-serif;
    border-radius: 5px;
@@ -200,7 +201,6 @@ a :is(span, .icones-color-green){
 
 /* hero de container est fini */
 .section-container-products{
-   width: 100vw;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -248,6 +248,7 @@ a :is(span, .icones-color-green){
    font-weight: 600;
    position: relative;
 }
+
 .product-flowers h2::before{
    content: "";
     position: absolute;
@@ -258,7 +259,6 @@ a :is(span, .icones-color-green){
     top: 22px;
     bottom: 0px;
 }
-
 
 .product-price{
    text-align: center;
@@ -276,7 +276,6 @@ a :is(span, .icones-color-green){
    color: #111;
    font-family: "Nunito Sans", sans-serif;
 }
-
 /* section de la carte de francr */
 
 .section-map-delivery{
@@ -308,13 +307,11 @@ a :is(span, .icones-color-green){
    font-family: "Nunito Sans", sans-serif;
 }
 
-
 .map-txt-about-fr{
    margin-top: 20px;
    font-size: 1rem;
    color: #000;
    font-family: "Nunito Sans", sans-serif;
-
 }
 
 .map-txt-about-in{
@@ -323,7 +320,6 @@ a :is(span, .icones-color-green){
    font-size: 1rem;
    color: #000;
    font-family: "Nunito Sans", sans-serif;
-
 }
 
 .title-map-metropolitan{
@@ -363,7 +359,7 @@ a :is(span, .icones-color-green){
    width: 250px;
 }
 
-.map-img .send-french{
+.send-french{
    position: absolute;
    top: 280px;
    left: 170px;
@@ -371,25 +367,29 @@ a :is(span, .icones-color-green){
 
 .send-french-a{
    text-decoration: none;
-   color: #000;
+   color: #fff;
+   font-size: 1.1rem;
    font-family: "Nunito Sans", sans-serif;
+   font-weight: 700;
    background: #8bc34a;
    padding: 8px 8px;
    border-radius: 5px;
+   
 }
 
 .map-img .send-international{
-   list-style: none;
    position: absolute;
    top: 280px;
    left: 170px;
 }
 
 .send-international-a{
-   text-decoration: none;
-   color: #000;
-   font-family: "Nunito Sans", sans-serif;
    background: #8bc34a;
+   text-decoration: none;
+   font-size: 1.1rem;
+   color: #fff;
+   font-family: "Nunito Sans", sans-serif;
+   font-weight: 700;
    padding: 8px 8px;
    border-radius: 5px;
 }
@@ -400,10 +400,11 @@ a :is(span, .icones-color-green){
 
 .delivery-city-a{
    text-decoration: none;
-   color: #000;
+   font-size: 1.09rem;
+   color: #222;
    font-family: "Nunito Sans", sans-serif;
-}
 
+}
 
 .barre{
    width: 1px;
@@ -464,12 +465,11 @@ a :is(span, .icones-color-green){
    align-items: center;
    padding: 0px 1%;
 }
-/* test projet */
 
+/* style de summary */
 .details-about-flowers {
    margin-bottom: 20px;
    position: relative;
-
 }
 
 .summary-about-flowers {
@@ -496,6 +496,7 @@ a :is(span, .icones-color-green){
 .details-about-flowers[open] > p {
    display: block;
 }
+
 /* test les projet */
 .article-about-flowers{
    display: flex;
@@ -537,11 +538,12 @@ a :is(span, .icones-color-green){
    padding-top: 20px;
 }
 
-.section-footer-reseaux .title-reseaux{
+.title-reseaux{
    text-align: center;
-   font-size: 1.3rem;
-   font-family: "Nunito Sans", sans-serif;
+   font-size: 1.4rem;
    color: #8bc34a;
+   font-family: "Nunito Sans", sans-serif;
+   font-weight: 900;
    font-weight: 500;
 }
 
@@ -569,9 +571,8 @@ a :is(span, .icones-color-green){
    padding-top: 7px;
 }
 
-.ul-reseaux-sociaux .list-reseaux .list-reseaux-a{
+.list-reseaux .list-reseaux-a{
    color: #fff;
-   
 }
 
 .section-conatiner-services{
@@ -606,8 +607,13 @@ a :is(span, .icones-color-green){
    color: #000;
    font-size: 1.07rem;
    font-family: "Nunito Sans", sans-serif;
-   line-height: 20px;
+   line-height: 24px;
+}
 
+.paragraph-list{
+   color: #000;
+   font-size: 1.07rem ;
+   font-family: "Nunito Sans", sans-serif;
 }
 
 .lists-items-row{
@@ -618,11 +624,10 @@ a :is(span, .icones-color-green){
    margin-top: 30px;
 }
 
-.lists-items-row .list-item-link{
+.list-item-link{
    font-size: 2.3rem;
    color: #8bc34a;
 }
-
 
 .footer-copyright{
    background: #265073;

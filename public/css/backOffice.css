@@ -68,7 +68,6 @@ a :is(span, .icones-color-green){
    flex-direction: column;
    position: absolute;
    top: 140px;
-
 }
 
 .link-active:hover + .link-hidden{
@@ -76,7 +75,7 @@ a :is(span, .icones-color-green){
 }
 
 .link-hidden-items{
-   background: beige;
+   background: #fff;
    list-style: none;
    padding: 4px 6px 6px 6px;
    border-radius: 4px;
@@ -92,7 +91,6 @@ a :is(span, .icones-color-green){
    color: #000;
    font-size: 1rem;
    font-family: "Nunito Sans", sans-serif;
-
 }
 
 .header-container{
@@ -120,7 +118,6 @@ a :is(span, .icones-color-green){
    font-family: "Nunito Sans", sans-serif;
    color: #fff;
 }
-
 
 .ul-container .ul-items{
       display:flex;
@@ -183,7 +180,6 @@ a :is(span, .icones-color-green){
    color: #8bc34a;
 }
 
-
 .title-card{
    margin-top: 14px;
    color: #222;
@@ -222,7 +218,6 @@ a :is(span, .icones-color-green){
    margin-top: 10px;
    font-size: 1rem;
    font-family: "Nunito Sans", sans-serif;
-
 }
 
 input[type="number"]{
@@ -239,8 +234,8 @@ select[id="pet-select"]{
 .paragrah-card{
    margin-top: 10px;
    font-size: 1.2rem;
-
 }
+
 .card{
    margin-top: 10px;
 }
@@ -256,7 +251,6 @@ select[id="pet-select"]{
 label{
    font-size: 1.1rem;
    font-family: "Nunito Sans", sans-serif;
-
 }
 
 .card-btn{
@@ -298,6 +292,7 @@ label{
    justify-content: space-between;
    gap: 100px;
 }
+
 .figure-col-5 img{
    width: 140px;
    height: 110px;
@@ -313,18 +308,27 @@ label{
    align-items: center;
 }
 
-.barre-col-5{
-   background: #222;
-   width: 300px;
-   height: 3px;
-   position: relative;
+progress {
+   border: 0;
+   height: 20px;
+   border-radius: 50px;
+}
+progress::-webkit-progress-bar {
+   border: 0;
+   height: 20px;
+   border-radius: 50px;
+}
+progress::-webkit-progress-value {
+   border: 0;
+   height: 20px;
+   border-radius: 50px;
+}
+progress::-moz-progress-bar {
+   border: 0;
+   height: 20px;
+   border-radius: 50px;
 }
 
-.barre-col-5{
-   position: absolute;
-   background: #8bc34a;
-   width: 20%;
-}
 
 .para-txt-col-5{
    margin-top: 15px;
@@ -351,7 +355,6 @@ label{
    margin-top: 20px;
    font-size: 1.2rem;
    font-family: "Nunito Sans", sans-serif;
-
 }
 
 .article-desc-col-5{
@@ -368,13 +371,15 @@ label{
    margin-top: 10px;
    font-size: 1.1rem;
    font-family: "Nunito Sans", sans-serif;
+}
 
+hr{
+   margin-top: 10px;
 }
 
 /* section de produit fleurs */
-
 .section-container-produits-5{
-   margin-top: 100px;
+   margin-top: 60px;
 }
 
 .title-produit-5{
@@ -382,8 +387,8 @@ label{
    font-size: 1.3rem;
    font-family: "Nunito Sans", sans-serif;
    color: #222;
-
 }
+
 .section-container-products{
    width: 100vw;
    display: flex;
@@ -433,17 +438,17 @@ label{
    font-weight: 600;
    position: relative;
 }
+
 .product-flowers h2::before{
    content: "";
-    position: absolute;
-    background-color: #ADD981;
-    width: 40px;
-    height: 3px;
-    left: 120px;
-    top: 22px;
-    bottom: 0px;
+   position: absolute;
+   background-color: #ADD981;
+   width: 40px;
+   height: 3px;
+   left: 120px;
+   top: 22px;
+   bottom: 0px;
 }
-
 
 .product-price{
    text-align: center;
@@ -483,72 +488,81 @@ label{
 }
 
 .article-card-avis{
-   width: 300px;
-   min-height: 160px;
-   background: hsl(94, 11%, 88%);
-   padding: 10px;
-   border-radius: 4px;
-   box-shadow: rgba(0, 0, 0, 0.1);
-   box-shadow: 4px 6px 16px #fff;
-   border: 1px solid #555;
-
+   border: 1px solid #ddd;
+   border-radius: 10px;
 }
 
-
-.ratings{
-   font-size: 1.2rem;
+.titles-avis{
+   font-size: 1.3rem;
    font-family: "Nunito Sans", sans-serif;
+   color: #222;
+   text-align: center;
 }
+
+.box-avis{
+   margin-top:- 30px;
+   width: 385px;
+   min-height: 120px;
+   background: #fff;
+   box-shadow: 4px 6px 16px #eed7c5;
+   padding: 10px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+
 .ratings i{
    color: #8bc34a;
+   letter-spacing: 15px;
 }
 
-
 .ratings{
-   background: #fff;
-   text-align: center;
-   padding: 10px;
-   border-radius: 3px;
-   letter-spacing: 5px;
+   width: 385px;
+   background: #f0f0f0;
+   color: #333;
+   font-size: 1.3rem;
    font-family: "Nunito Sans", sans-serif;
-
+   text-align: center;
+   padding: 20px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
 }
 
 .title-avis{
-   margin-top: 10px;
-   font-size: 1.1rem;
+   margin-top: -3px;
+   margin-left: 12px;
+   color: #333;
+   font-size: 1rem;
    font-family: "Nunito Sans", sans-serif;
-
 }
 
 .tim-avis{
-   margin-top: 20px;;
-   font-size: 1rem;
+   padding-top: 10px;
+   margin-left: 12px;
+   font-size: 0.9rem;
    font-family: "Nunito Sans", sans-serif;
-
-
 }
 
 .paragraph-avis{
    margin-top: 12px;
-   font-size: 1rem;
+   margin-left: 10px;
+   color: #111;
+   font-size: 1.1rem;
    font-family: "Nunito Sans", sans-serif;
 }
 
-
 /* section de footer */
-
 .section-footer-reseaux{
    margin-top: 35px;
    background: #eddcd2;
    padding-top: 20px;
 }
 
-.section-footer-reseaux .title-reseaux{
+.title-reseaux{
    text-align: center;
-   font-size: 1.3rem;
-   font-family: "Nunito Sans", sans-serif;
    color: #8bc34a;
+   font-size: 1.4rem;
+   font-family: "Nunito Sans", sans-serif;
+   font-weight: 900;
    font-weight: 500;
 }
 
@@ -578,7 +592,6 @@ label{
 
 .list-reseaux-a{
    color: #fff;
-   
 }
 
 .section-conatiner-services{
@@ -603,18 +616,24 @@ label{
    color: #8bc34a;
    font-family: "Nunito Sans", sans-serif;
 }
-.container-services .lists-items{
+
+.lists-items{
    list-style: none;
    margin-bottom: 20px;
 }
 
-.lists-items .list-item .list-item-link{
+.list-item-link{
    text-decoration: none;
    color: #000;
    font-size: 1.07rem;
    font-family: "Nunito Sans", sans-serif;
-   line-height: 20px;
+   line-height: 24px;
+}
 
+.paragraph-list{
+   color: #000;
+   font-size: 1.07rem ;
+   font-family: "Nunito Sans", sans-serif;
 }
 
 .lists-items-row{
