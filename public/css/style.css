@@ -1,10 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
+:root {
+   /* Font Sizes */
+   --font-size-h1: 2.5rem;
+   --font-size-h2: 2rem;
+   --font-size-h3: 1.75rem;
+   --font-size-link: 1rem;
+   --color-link: #2E8B57;
+   --font-size-button: 1.125rem;
+   --color-button-bg: #4CAF50;
+   --color-button-text: #FFFFFF;
+   --padding-button: 0.5rem 1rem;
+   --margin-link: 0.5rem 0;     
+   --font-size-p: 1rem;
+   --color-p: #333333;
+}
+
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
    max-width: 100%;
+}
+
+body {
+   /* background-color: whitesmoke; */
+   /* background:#90EE90;  */
 }
 
 .header {
@@ -17,15 +38,16 @@
 .header .logo {
    font-size: 2rem;
    color: #000;
+   font-family: "Merriweather", serif;
    list-style: none;
    text-decoration: none;
-   font-family: "Merriweather", serif;
    font-weight: 700;
 }
 
 a :is(span, .icones-color-green) {
    color: #8bc34a;
-   font-size: 1.2rem;
+   font-size: 1.3rem;
+   font-weight: 900;
 }
 
 .navbar .ul-lists {
@@ -37,7 +59,7 @@ a :is(span, .icones-color-green) {
 
 .list-link .list-link-a {
    text-decoration: none;
-   font-size: 1rem;
+   font-size: var(--font-size-link);
    font-family: "Nunito Sans", sans-serif;
    color: #111;
 }
@@ -273,7 +295,8 @@ a :is(span, .icones-color-green) {
    text-align: center;
    margin-top: 5px;
    font-size: 1rem;
-   color: #111;
+   /* color: #111; */
+   font-size: var(--font-size-p);
    font-family: "Nunito Sans", sans-serif;
 }
 
@@ -449,8 +472,9 @@ a :is(span, .icones-color-green) {
 .choice-txt-p {
    margin-top: 15px;
    font-size: 1rem;
+   --font-size-p: 1rem;
    font-family: "Nunito Sans", sans-serif;
-   color: #222;
+   --color-p: #333333;
 }
 
 /* section de container row */
@@ -536,7 +560,7 @@ a :is(span, .icones-color-green) {
 /* section de reseaux */
 .section-footer-reseaux {
    margin-top: 0px;
-   background: #eddcd2;
+   background-color: #FFE4E1;
    padding-top: 20px;
 }
 
@@ -564,13 +588,11 @@ a :is(span, .icones-color-green) {
 }
 
 .ul-reseaux-sociaux .list-reseaux {
-   background: #8bc34a;
    text-align: center;
    width: 40px;
    height: 40px;
    border-radius: 50%;
    font-size: 1.4rem;
-   padding-top: 7px;
 }
 
 .list-reseaux .list-reseaux-a {

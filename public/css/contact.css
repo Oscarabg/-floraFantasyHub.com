@@ -347,7 +347,7 @@ hr {
 /* sention de footer reseaux */
 .section-footer-reseaux {
    margin-top: 30px;
-   background: #eddcd2;
+   background-color: #FFE4E1;
    padding-top: 20px;
 }
 
@@ -374,14 +374,12 @@ hr {
    padding-top: 30px;
 }
 
-.list-reseaux {
-   background: #8bc34a;
+.ul-reseaux-sociaux .list-reseaux {
    text-align: center;
    width: 40px;
    height: 40px;
    border-radius: 50%;
    font-size: 1.4rem;
-   padding-top: 7px;
 }
 
 .list-reseaux-a {
