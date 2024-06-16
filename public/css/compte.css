@@ -1,25 +1,25 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-:root{
+
+:root {
    --header: #fff;
    --text-bg-color: #8bc34a;
 }
 
-*{
+* {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
    max-width: 100%;
 }
 
-.header{
+.header {
    display: flex;
    justify-content: space-between;
    align-items: center;
    padding: 20px 3%;
 }
 
-.header .logo{
+.header .logo {
    font-size: 2rem;
    color: #000;
    list-style: none;
@@ -28,42 +28,42 @@
    font-weight: 700;
 }
 
-a :is(span, .icones-color-green){
+a :is(span, .icones-color-green) {
    font-size: 1.2rem;
    color: var(--text-bg-color);
 }
 
-.navbar .ul-lists{
+.navbar .ul-lists {
    display: flex;
    align-items: center;
    gap: 80px;
    list-style: none;
 }
 
-.list-link .list-link-a{
+.list-link .list-link-a {
    text-decoration: none;
    font-size: 1rem;
    font-family: "Nunito Sans", sans-serif;
    color: #111;
 }
 
-.section-container{
+.section-container {
    width: 100vw;
 }
 
-.link-item{
+.link-item {
    color: #fff;
    font-size: 2rem;
    position: relative;
 }
 
-.icones-down-layout{
+.icones-down-layout {
    position: relative;
    left: 6px;
-   top:2px;
+   top: 2px;
 }
 
-.link-hidden{
+.link-hidden {
    display: none;
    flex-direction: column;
    position: absolute;
@@ -71,60 +71,60 @@ a :is(span, .icones-color-green){
 
 }
 
-.link-active:hover + .link-hidden{
+.link-active:hover+.link-hidden {
    display: block;
 }
 
-.link-hidden-items{
+.link-hidden-items {
    background: #fff;
    list-style: none;
    padding: 4px 6px 6px 6px;
    border-radius: 4px;
 }
 
-.link-hidden-item{
+.link-hidden-item {
    text-decoration: none;
    line-height: 25px;
 }
 
-.link-item-a{
+.link-item-a {
    text-decoration: none;
    color: #000;
    font-size: 1rem;
    font-family: "Nunito Sans", sans-serif;
 }
 
-.header-container{
+.header-container {
    background: #cad2c5;
 }
 
-.nav-container{
+.nav-container {
    padding: 25px 3%;
 }
 
-.nav-container .ul-container{
+.nav-container .ul-container {
    display: flex;
    justify-content: space-between;
    align-items: center;
    list-style: none;
 }
 
-.ul-container .ul-items{
+.ul-container .ul-items {
    list-style: none;
 }
 
-.link-item .link-item-a{
+.link-item .link-item-a {
    text-decoration: none;
    font-size: 1.1rem;
    font-family: "Nunito Sans", sans-serif;
    color: #fff;
 }
 
-.ul-container .ul-items{
-      display:flex;
+.ul-container .ul-items {
+   display: flex;
 }
 
-.ul-container .input-search{
+.ul-container .input-search {
    width: 12vw;
    background: #cad2c5;
    padding: 8px 12px;
@@ -157,14 +157,14 @@ a :is(span, .icones-color-green){
 }
 
 /* section de hero background*/
-.section-hero-3{
+.section-hero-3 {
    margin-top: -40px;
    padding: 12px 1.6%;
    min-height: 400px;
-   
+
 }
 
-.figure-hero-3{
+.figure-hero-3 {
    background-image: url(../img/img-principal-5.jpg);
    background-size: cover;
    background-position: center;
@@ -174,7 +174,7 @@ a :is(span, .icones-color-green){
 
 }
 
-.title-hero-3{
+.title-hero-3 {
    margin-top: 50px;
    text-align: center;
    color: var(--header);
@@ -185,36 +185,36 @@ a :is(span, .icones-color-green){
 }
 
 /* section d'article */
-.section-article-container{
+.section-article-container {
    display: flex;
    flex-direction: column;
    margin-top: 20px;
- }
+}
 
- /* Style du titre du formulaire */
+/* Style du titre du formulaire */
 .title-espace-3 {
    margin-bottom: 20px;
    margin-left: 160px;
    font-size: 1.2em;
    font-family: "Nunito Sans", sans-serif;
    font-weight: 600;
- }
- 
- /* Style des lignes d'articles */
-.section-row-3{
+}
+
+/* Style des lignes d'articles */
+.section-row-3 {
    display: flex;
    justify-content: space-around;
    width: 100%;
- }
- 
- /* Style des articles de formulaire */
+}
+
+/* Style des articles de formulaire */
 .article-paragraph-3 {
    flex: 1;
    margin: 0 10px;
    padding: 10px 20px;
    background-color: #f9f9f9;
    border-radius: 5px;
- }
+}
 
 /* Style du paragraphe */
 .paragraph-3 {
@@ -222,34 +222,34 @@ a :is(span, .icones-color-green){
    color: #111;
    font-family: "Nunito Sans", sans-serif;
    line-height: 26px;
- }
+}
 
- /* Style des colonnes de formulaire */
+/* Style des colonnes de formulaire */
 .form-col-3 {
    margin-bottom: 15px;
- }
+}
 
- /* Style des étiquettes des champs */
- label {
+/* Style des étiquettes des champs */
+label {
    display: block;
    margin-bottom: 5px;
    font-family: "Nunito Sans", sans-serif;
    font-size: 1rem;
- }
- 
- /* Style des champs de formulaire */
- input[type="text"],
- input[type="email"],
- input[type="date"]{
+}
+
+/* Style des champs de formulaire */
+input[type="text"],
+input[type="email"],
+input[type="date"] {
    width: 100%;
    padding: 8px;
    border: 1px solid #ccc;
    border-radius: 4px;
    box-sizing: border-box;
- }
+}
 
- /* Style du bouton Envoyer */
- .btn-3{
+/* Style du bouton Envoyer */
+.btn-3 {
    background-color: #4CAF50;
    color: white;
    font-size: 1rem;
@@ -258,25 +258,25 @@ a :is(span, .icones-color-green){
    border: none;
    border-radius: 4px;
    cursor: pointer;
- }
+}
 
- /* Effet de survol sur le bouton Envoyer */
- .btn-3:hover{
+/* Effet de survol sur le bouton Envoyer */
+.btn-3:hover {
    background-color: #45a049;
- }
+}
 
- hr{
+hr {
    margin: 30px auto;
    text-align: center;
    width: 90%;
- }
+}
 
- /* section de paragraph */
- .section-paragrah-3{
+/* section de paragraph */
+.section-paragrah-3 {
    margin-top: 30px;
- }
+}
 
- .text-paragraph-3{
+.text-paragraph-3 {
    font-size: 1.1rem;
    color: #111;
    text-align: center;
@@ -284,16 +284,16 @@ a :is(span, .icones-color-green){
    font-weight: 600px;
    margin-bottom: 20px;
    line-height: 26px;
- }
+}
 
- /* footer de reseaux */
- .section-footer-reseaux{
+/* footer de reseaux */
+.section-footer-reseaux {
    margin-top: 0px;
    background: #eddcd2;
    padding-top: 20px;
 }
 
-.title-reseaux{
+.title-reseaux {
    text-align: center;
    color: #8bc34a;
    font-size: 1.4rem;
@@ -302,12 +302,12 @@ a :is(span, .icones-color-green){
    font-weight: 500;
 }
 
-.footer-reseaux{
+.footer-reseaux {
    width: 100vw;
    height: 150px;
 }
 
-.ul-reseaux-sociaux{
+.ul-reseaux-sociaux {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -316,36 +316,36 @@ a :is(span, .icones-color-green){
    padding-top: 30px;
 }
 
-.ul-reseaux-sociaux .list-reseaux{
+.ul-reseaux-sociaux .list-reseaux {
    background: #8bc34a;
    text-align: center;
    width: 40px;
-   height: 40px; 
+   height: 40px;
    border-radius: 50%;
    font-size: 1.4rem;
    padding-top: 7px;
 }
 
-.list-reseaux-a{
+.list-reseaux-a {
    color: #fff;
 }
 
-.section-conatiner-services{
+.section-conatiner-services {
    display: flex;
    justify-content: space-between;
    padding: 0px 3%;
    margin-top: -50px;
 }
 
-.article-services{
+.article-services {
    max-width: 300px;
 }
 
-.container-service{
- width: 100%;
+.container-service {
+   width: 100%;
 }
 
-.title-services{
+.title-services {
    margin-top: 9px;
    margin-bottom: 15px;
    font-size: 1.3rem;
@@ -353,33 +353,33 @@ a :is(span, .icones-color-green){
    font-family: "Nunito Sans", sans-serif;
 }
 
-.lists-items{
+.lists-items {
    list-style: none;
    margin-bottom: 20px;
 }
 
-.lists-items.list-item{
+.lists-items.list-item {
    font-size: 1.07rem;
    font-family: "Nunito Sans", sans-serif;
    line-height: 24px;
 }
 
-.list-item-link{
+.list-item-link {
    text-decoration: none;
 }
 
-.paragraph-list{
+.paragraph-list {
    color: #000;
-   font-size: 1.07rem ;
+   font-size: 1.07rem;
    font-family: "Nunito Sans", sans-serif;
 }
 
-.lists-items-row .list-item .list-item-link{
+.lists-items-row .list-item .list-item-link {
    font-size: 2.3rem;
    color: #8bc34a;
 }
 
-.lists-items-row{
+.lists-items-row {
    display: flex;
    align-items: center;
    gap: 80px;
@@ -387,17 +387,17 @@ a :is(span, .icones-color-green){
    margin-top: 30px;
 }
 
-.list-item-link{
+.list-item-link {
    font-size: 1.2rem;
    color: #000;
 }
 
-.footer-copyright{
+.footer-copyright {
    background: #265073;
    padding: 20px;
 }
 
-.text-copyright{
+.text-copyright {
    color: #fff;
    text-align: center;
    font-size: 1rem;

@@ -1,25 +1,25 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-:root{
+
+:root {
    --header: #fff;
    --text-bg-color: #8bc34a;
 }
 
-*{
+* {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
    max-width: 100%;
 }
 
-.header{
+.header {
    display: flex;
    justify-content: space-between;
    align-items: center;
    padding: 20px 3%;
 }
 
-.header .logo{
+.header .logo {
    font-size: 2rem;
    color: #000;
    list-style: none;
@@ -28,93 +28,93 @@
    font-weight: 700;
 }
 
-a :is(span, .icones-color-green){
+a :is(span, .icones-color-green) {
    font-size: 1.2rem;
    color: var(--text-bg-color);
 }
 
-.navbar .ul-lists{
+.navbar .ul-lists {
    display: flex;
    align-items: center;
    gap: 80px;
    list-style: none;
 }
 
-.list-link .list-link-a{
+.list-link .list-link-a {
    text-decoration: none;
    font-size: 1rem;
    font-family: "Nunito Sans", sans-serif;
    color: #111;
 }
 
-.section-container{
+.section-container {
    width: 100vw;
 }
 
 
-.link-item{
+.link-item {
    color: #fff;
    font-size: 2rem;
    position: relative;
 }
 
 
-.icones-down-layout{
+.icones-down-layout {
    position: relative;
    left: 6px;
-   top:2px;
+   top: 2px;
 }
 
-.link-hidden{
+.link-hidden {
    display: none;
    flex-direction: column;
    position: absolute;
    top: 140px;
 }
 
-.link-active:hover + .link-hidden{
+.link-active:hover+.link-hidden {
    display: block;
 }
 
-.link-hidden-items{
+.link-hidden-items {
    background: #fff;
    list-style: none;
    padding: 4px 6px 6px 6px;
    border-radius: 4px;
 }
 
-.link-hidden-item{
+.link-hidden-item {
    text-decoration: none;
    line-height: 25px;
 }
 
-.link-item-a{
+.link-item-a {
    text-decoration: none;
    color: #000;
    font-size: 1rem;
    font-family: "Nunito Sans", sans-serif;
 }
 
-.header-container{
+.header-container {
    background: #cad2c5;
 }
 
-.nav-container{
+.nav-container {
    padding: 25px 3%;
 }
 
-.nav-container .ul-container{
+.nav-container .ul-container {
    display: flex;
    justify-content: space-between;
    align-items: center;
    list-style: none;
 }
 
-.ul-container .ul-items{
+.ul-container .ul-items {
    list-style: none;
 }
 
-.link-item .link-item-a{
+.link-item .link-item-a {
    text-decoration: none;
    font-size: 1.1rem;
    font-family: "Nunito Sans", sans-serif;
@@ -122,11 +122,11 @@ a :is(span, .icones-color-green){
 }
 
 
-.ul-container .ul-items{
-      display:flex;
+.ul-container .ul-items {
+   display: flex;
 }
 
-.ul-container .input-search{
+.ul-container .input-search {
    width: 12vw;
    background: #cad2c5;
    padding: 8px 12px;
@@ -159,13 +159,13 @@ a :is(span, .icones-color-green){
 }
 
 /* espace de client */
-.section-hero-2{
+.section-hero-2 {
    margin-top: -10px;
    padding: 0px 1.6%;
    min-height: 400px;
 }
 
-.figure-hero-2{
+.figure-hero-2 {
    background-image: url(../img/img-principal-2.jpg);
    background-size: cover;
    background-position: center;
@@ -174,7 +174,7 @@ a :is(span, .icones-color-green){
    border-radius: 5px;
 }
 
-.title-espace{
+.title-espace {
    margin-top: 30px;
    text-align: center;
    color: var(--header);
@@ -183,6 +183,7 @@ a :is(span, .icones-color-green){
    font-weight: 900;
    padding: 120px;
 }
+
 /* section de formulaire*/
 
 /* Style général du formulaire */
@@ -196,62 +197,62 @@ a :is(span, .icones-color-green){
    margin-left: 1.6%;
    padding: 20px;
    border-radius: 5px;
- }
- 
- /* Style des lignes d'articles */
- .section-row{
+}
+
+/* Style des lignes d'articles */
+.section-row {
    display: flex;
    justify-content: space-around;
    width: 100%;
- }
- 
- /* Style des articles de formulaire */
- .article-form {
+}
+
+/* Style des articles de formulaire */
+.article-form {
    flex: 1;
    margin: 0 10px;
    padding: 20px;
    background-color: #f9f9f9;
    border-radius: 5px;
- }
+}
 
- .barre{
+.barre {
    width: 2px;
-   height:px;
+   height: px;
    background: #444;
- }
- 
- /* Style du titre du formulaire */
- .title-form {
+}
+
+/* Style du titre du formulaire */
+.title-form {
    margin-bottom: 20px;
    font-size: 1.2em;
    font-family: "Nunito Sans", sans-serif;
- }
- 
- /* Style des colonnes de formulaire */
- .form-col {
+}
+
+/* Style des colonnes de formulaire */
+.form-col {
    margin-bottom: 15px;
- }
- 
- /* Style des étiquettes des champs */
- label {
+}
+
+/* Style des étiquettes des champs */
+label {
    display: block;
    margin-bottom: 5px;
    font-family: "Nunito Sans", sans-serif;
    font-size: 1rem;
- }
- 
- /* Style des champs de formulaire */
- input[type="text"],
- input[type="email"] {
+}
+
+/* Style des champs de formulaire */
+input[type="text"],
+input[type="email"] {
    width: 100%;
    padding: 8px;
    border: 1px solid #ccc;
    border-radius: 4px;
    box-sizing: border-box;
- }
- 
- /* Style du bouton Envoyer */
- button[type="submit"] {
+}
+
+/* Style du bouton Envoyer */
+button[type="submit"] {
    background-color: #4CAF50;
    color: white;
    font-size: 1.1rem;
@@ -260,15 +261,15 @@ a :is(span, .icones-color-green){
    border: none;
    border-radius: 4px;
    cursor: pointer;
- }
+}
 
- /* Effet de survol sur le bouton Envoyer */
- button[type="submit"]:hover {
+/* Effet de survol sur le bouton Envoyer */
+button[type="submit"]:hover {
    background-color: #45a049;
- }
+}
 
- /* Style du bouton Envoyer */
- .link{
+/* Style du bouton Envoyer */
+.link {
    background-color: #4CAF50;
    color: white;
    font-size: 1rem;
@@ -278,42 +279,42 @@ a :is(span, .icones-color-green){
    border: none;
    border-radius: 4px;
    cursor: pointer;
- }
+}
 
- /* Effet de survol sur le bouton Envoyer */
- .link:hover{
+/* Effet de survol sur le bouton Envoyer */
+.link:hover {
    background-color: #45a049;
- }
+}
 
-.link-pwd{
+.link-pwd {
    margin-top: 20px;
 }
 
-.password{
+.password {
    text-decoration: none;
    color: #111;
    font-size: 1.1rem;
    font-family: "Nunito Sans", sans-serif;
 }
 
- /* section d'article de paragraphe */
- .section-article-container{
+/* section d'article de paragraphe */
+.section-article-container {
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
    margin-top: 40px;
    padding: 0px 2%;
- }
+}
 
- .title-paragraph{
+.title-paragraph {
    color: #111;
    font-size: 1.3rem;
    font-family: "Nunito Sans", sans-serif;
    position: relative;
- }
+}
 
- .title-paragraph::after{
+.title-paragraph::after {
    content: "";
    width: 150px;
    height: 3px;
@@ -321,36 +322,36 @@ a :is(span, .icones-color-green){
    position: absolute;
    top: 30px;
    left: 70px;
- }
- 
-.article-paragraph{
+}
+
+.article-paragraph {
    margin-top: 25px;
 }
 
-.txt-paragraph-1{
+.txt-paragraph-1 {
    font-size: 1.1rem;
    font-family: "Nunito Sans", sans-serif;
    text-align: center;
 }
 
-.txt-paragraph-2{
+.txt-paragraph-2 {
    font-size: 1.1rem;
    font-family: "Nunito Sans", sans-serif;
    text-align: center;
 }
 
-hr{
+hr {
    margin-top: 15px;
- }
+}
 
 /* sention de footer reseaux */
-.section-footer-reseaux{
+.section-footer-reseaux {
    margin-top: 30px;
    background: #eddcd2;
    padding-top: 20px;
 }
 
-.title-reseaux{
+.title-reseaux {
    text-align: center;
    font-size: 1.4rem;
    font-family: "Nunito Sans", sans-serif;
@@ -359,12 +360,12 @@ hr{
    font-weight: 500;
 }
 
-.footer-reseaux{
+.footer-reseaux {
    width: 100vw;
    height: 150px;
 }
 
-.ul-reseaux-sociaux{
+.ul-reseaux-sociaux {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -373,36 +374,36 @@ hr{
    padding-top: 30px;
 }
 
-.list-reseaux{
+.list-reseaux {
    background: #8bc34a;
    text-align: center;
    width: 40px;
-   height: 40px; 
+   height: 40px;
    border-radius: 50%;
    font-size: 1.4rem;
    padding-top: 7px;
 }
 
-.list-reseaux-a{
+.list-reseaux-a {
    color: #fff;
 }
 
-.section-conatiner-services{
+.section-conatiner-services {
    display: flex;
    justify-content: space-between;
    padding: 0px 3%;
    margin-top: -50px;
 }
 
-.article-services{
+.article-services {
    max-width: 300px;
 }
 
-.container-service{
- width: 100%;
+.container-service {
+   width: 100%;
 }
 
-.title-services{
+.title-services {
    margin-top: 9px;
    margin-bottom: 15px;
    font-size: 1.3rem;
@@ -410,12 +411,12 @@ hr{
    font-family: "Nunito Sans", sans-serif;
 }
 
-.lists-items{
+.lists-items {
    list-style: none;
    margin-bottom: 20px;
 }
 
-.list-item-link{
+.list-item-link {
    text-decoration: none;
    color: #000;
    font-size: 1.07rem;
@@ -423,13 +424,13 @@ hr{
    line-height: 24px;
 }
 
-.paragraph-list{
+.paragraph-list {
    color: #000;
-   font-size: 1.07rem ;
+   font-size: 1.07rem;
    font-family: "Nunito Sans", sans-serif;
 }
 
-.lists-items-row{
+.lists-items-row {
    display: flex;
    align-items: center;
    gap: 80px;
@@ -437,24 +438,24 @@ hr{
    margin-top: 30px;
 }
 
-.lists-items-row .list-item-link{
+.lists-items-row .list-item-link {
    font-size: 2.3rem;
    color: #8bc34a;
 }
 
-.article-paragraph-2{
+.article-paragraph-2 {
    margin-top: 30px;
    font-size: 1rem;
    font-family: "Nunito Sans", sans-serif;
    text-align: center;
 }
 
-.footer-copyright{
+.footer-copyright {
    background: #265073;
    padding: 20px;
 }
 
-.text-copyright{
+.text-copyright {
    color: #fff;
    text-align: center;
    font-size: 1rem;
@@ -462,4 +463,3 @@ hr{
    font-weight: 600;
 
 }
- 

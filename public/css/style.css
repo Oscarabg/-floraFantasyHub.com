@@ -1,21 +1,20 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-*{
+* {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
    max-width: 100%;
 }
 
-.header{
+.header {
    display: flex;
    justify-content: space-between;
    align-items: center;
    padding: 20px 3%;
 }
 
-.header .logo{
+.header .logo {
    font-size: 2rem;
    color: #000;
    list-style: none;
@@ -24,19 +23,19 @@
    font-weight: 700;
 }
 
-a :is(span, .icones-color-green){
-   color:#8bc34a;
+a :is(span, .icones-color-green) {
+   color: #8bc34a;
    font-size: 1.2rem;
 }
 
-.navbar .ul-lists{
+.navbar .ul-lists {
    display: flex;
    align-items: center;
    gap: 80px;
    list-style: none;
 }
 
-.list-link .list-link-a{
+.list-link .list-link-a {
    text-decoration: none;
    font-size: 1rem;
    font-family: "Nunito Sans", sans-serif;
@@ -44,24 +43,24 @@ a :is(span, .icones-color-green){
 }
 
 /* header container */
-.section-container{
+.section-container {
    width: 100vw;
 }
 
-.icones-down-layout{
+.icones-down-layout {
    position: relative;
    left: 6px;
-   top:2px;
+   top: 2px;
 }
 
 
-.link-item{
+.link-item {
    color: #fff;
    font-size: 2rem;
    position: relative;
 }
 
-.link-hidden{
+.link-hidden {
    display: none;
    flex-direction: column;
    align-items: center;
@@ -69,25 +68,25 @@ a :is(span, .icones-color-green){
    top: 140px;
 }
 
-.link-active:hover + .link-hidden{
+.link-active:hover+.link-hidden {
    display: block;
    position: absolute;
    top: 140px;
 }
 
-.link-hidden-items{
+.link-hidden-items {
    background: #fff;
    list-style: none;
    padding: 4px 6px 6px 6px;
    border-radius: 4px;
 }
 
-.link-hidden-item{
+.link-hidden-item {
    text-decoration: none;
    line-height: 24px;
 }
 
-.link-item-a{
+.link-item-a {
    text-decoration: none;
    color: #222;
    font-size: 1.1rem;
@@ -95,37 +94,37 @@ a :is(span, .icones-color-green){
 }
 
 
-.header-container{
+.header-container {
    background: #cad2c5;
 }
 
-.nav-container{
+.nav-container {
    padding: 25px 3%;
 }
 
-.nav-container .ul-container{
+.nav-container .ul-container {
    display: flex;
    justify-content: space-between;
    align-items: center;
    list-style: none;
 }
 
-.ul-container .ul-items{
+.ul-container .ul-items {
    list-style: none;
 }
 
-.link-item .link-item-a{
+.link-item .link-item-a {
    text-decoration: none;
    font-size: 1.1rem;
    font-family: "Nunito Sans", sans-serif;
    color: #fff;
 }
 
-.ul-container .ul-items{
-   display:flex;
+.ul-container .ul-items {
+   display: flex;
 }
 
-.ul-container .input-search{
+.ul-container .input-search {
    width: 12vw;
    background: #cad2c5;
    padding: 8px 12px;
@@ -156,15 +155,16 @@ a :is(span, .icones-color-green){
 .ul-items button:focus {
    outline: none;
 }
+
 /* deuxième header est fini */
 
 /* hero de container */
-  .hero-container{
+.hero-container {
    padding: 20px 1.6%;
    min-height: 400px;
-} 
+}
 
-.hero-img{
+.hero-img {
    height: 100%;
    width: 100%;
    background-image: url(../img/row-img.jpg);
@@ -178,7 +178,7 @@ a :is(span, .icones-color-green){
    border-radius: 5px;
 }
 
-.hero-img .hero-link-a{
+.hero-img .hero-link-a {
    text-decoration: none;
    color: #fff;
    font-size: 2.9rem;
@@ -189,7 +189,7 @@ a :is(span, .icones-color-green){
    line-height: 80px;
 }
 
-.hero-img .hero-link-span{
+.hero-img .hero-link-span {
    background: #ffb703;
    padding: 3px 8px;
    color: #fff;
@@ -200,7 +200,7 @@ a :is(span, .icones-color-green){
 }
 
 /* hero de container est fini */
-.section-container-products{
+.section-container-products {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -216,13 +216,13 @@ a :is(span, .icones-color-green){
    margin-bottom: 20px;
 }
 
-.product-links{
+.product-links {
    text-decoration: none;
    color: #000;
    position: relative;
 }
 
-.product-flowers{
+.product-flowers {
    width: 295px;
    height: 412px;
    margin-bottom: 20px;
@@ -231,7 +231,7 @@ a :is(span, .icones-color-green){
    border-radius: 10px;
 }
 
-.product-flowers > img{
+.product-flowers>img {
    width: 100%;
    height: 270px;
    object-fit: cover;
@@ -239,7 +239,7 @@ a :is(span, .icones-color-green){
    border-radius: 5px;
 }
 
-.product-flowers h2{
+.product-flowers h2 {
    text-align: center;
    margin-top: 8px;
    font-size: 1rem;
@@ -249,57 +249,59 @@ a :is(span, .icones-color-green){
    position: relative;
 }
 
-.product-flowers h2::before{
+.product-flowers h2::before {
    content: "";
-    position: absolute;
-    background-color: #ADD981;
-    width: 40px;
-    height: 3px;
-    left: 120px;
-    top: 22px;
-    bottom: 0px;
+   position: absolute;
+   background-color: #ADD981;
+   width: 40px;
+   height: 3px;
+   left: 120px;
+   top: 22px;
+   bottom: 0px;
 }
 
-.product-price{
+.product-price {
    text-align: center;
    margin-top: 5px;
    color: #000;
-   font-family: "Nunito Sans", sans-serif; 
+   font-family: "Nunito Sans", sans-serif;
    font-size: 1.2rem;
    font-weight: 800;
 }
 
-.product-flowers p{
+.product-flowers p {
    text-align: center;
    margin-top: 5px;
    font-size: 1rem;
    color: #111;
    font-family: "Nunito Sans", sans-serif;
 }
+
 /* section de la carte de francr */
 
-.section-map-delivery{
+.section-map-delivery {
    margin-top: 30px;
    padding: 10px 1.6%;
 }
 
-.title-delivery{
+.title-delivery {
    text-align: center;
    padding-top: 25px;
    font-size: 2.3rem;
    font-family: "Nunito Sans", sans-serif;
    color: #fcd5ce;
 }
+
 /* section-map-abouts */
 
-.section-map-abouts{
+.section-map-abouts {
    display: flex;
    justify-content: space-between;
    margin-top: 40px;
    padding: 0px 1%;
 }
 
-.title-map-metropolitan{
+.title-map-metropolitan {
    margin-top: 20px;
    margin-top: 20px;
    font-size: 1rem;
@@ -307,14 +309,14 @@ a :is(span, .icones-color-green){
    font-family: "Nunito Sans", sans-serif;
 }
 
-.map-txt-about-fr{
+.map-txt-about-fr {
    margin-top: 20px;
    font-size: 1rem;
    color: #000;
    font-family: "Nunito Sans", sans-serif;
 }
 
-.map-txt-about-in{
+.map-txt-about-in {
    margin-top: 20px;
    margin-top: 20px;
    font-size: 1rem;
@@ -322,32 +324,32 @@ a :is(span, .icones-color-green){
    font-family: "Nunito Sans", sans-serif;
 }
 
-.title-map-metropolitan{
+.title-map-metropolitan {
    color: #000;
    font-size: 1rem;
 }
 
-.map-txt-about-fr{
+.map-txt-about-fr {
    color: #000;
    font-size: 1rem;
 }
 
-.map-txt-about-in{
+.map-txt-about-in {
    color: #000;
    font-size: 1rem;
 }
 
-.section-map-abouts{
+.section-map-abouts {
    display: flex;
    justify-content: space-between;
 }
 
-.section-map-city{
+.section-map-city {
    max-width: 550px;
    margin-top: 30px;
 }
 
-.map-img{
+.map-img {
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -355,17 +357,17 @@ a :is(span, .icones-color-green){
    position: relative;
 }
 
-.map-img img{
+.map-img img {
    width: 250px;
 }
 
-.send-french{
+.send-french {
    position: absolute;
    top: 280px;
    left: 170px;
 }
 
-.send-french-a{
+.send-french-a {
    text-decoration: none;
    color: #fff;
    font-size: 1.1rem;
@@ -374,16 +376,16 @@ a :is(span, .icones-color-green){
    background: #8bc34a;
    padding: 8px 8px;
    border-radius: 5px;
-   
+
 }
 
-.map-img .send-international{
+.map-img .send-international {
    position: absolute;
    top: 280px;
    left: 170px;
 }
 
-.send-international-a{
+.send-international-a {
    background: #8bc34a;
    text-decoration: none;
    font-size: 1.1rem;
@@ -394,11 +396,11 @@ a :is(span, .icones-color-green){
    border-radius: 5px;
 }
 
-.ul-delivery-city{
+.ul-delivery-city {
    list-style: none;
 }
 
-.delivery-city-a{
+.delivery-city-a {
    text-decoration: none;
    font-size: 1.09rem;
    color: #222;
@@ -406,7 +408,7 @@ a :is(span, .icones-color-green){
 
 }
 
-.barre{
+.barre {
    width: 1px;
    min-height: 480px;
    background: #b09e99;
@@ -414,13 +416,13 @@ a :is(span, .icones-color-green){
 }
 
 /*section de choix dex fleurs*/
-.section-choice{
+.section-choice {
    margin-top: 20px;
    padding: 10px 1.6rem;
    width: 100%;
 }
 
-.title-choice-flower{
+.title-choice-flower {
    margin-top: 40px;
    margin-bottom: 30px;
    text-align: center;
@@ -430,21 +432,21 @@ a :is(span, .icones-color-green){
    font-weight: 500;
 }
 
-.choice-flowers{
+.choice-flowers {
    display: flex;
    justify-content: space-between;
    align-items: center;
    margin-top: 50px;
 }
 
-.choice-flower > img{
+.choice-flower>img {
    width: 60px;
    height: 60px;
    object-fit: cover;
    object-position: center;
 }
 
-.choice-txt-p{
+.choice-txt-p {
    margin-top: 15px;
    font-size: 1rem;
    font-family: "Nunito Sans", sans-serif;
@@ -452,14 +454,14 @@ a :is(span, .icones-color-green){
 }
 
 /* section de container row */
-.section-container-about{
+.section-container-about {
    margin-top: 40px;
    background: #b09e99;
    width: 100vw;
    padding: 10px 1.6%;
 }
 
-.section-container-row{
+.section-container-row {
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -481,35 +483,35 @@ a :is(span, .icones-color-green){
 }
 
 /* Masque le contenu des détails par défaut */
-.details-about-flowers > p {
+.details-about-flowers>p {
    display: none;
 }
 
-.img-icones{
-   position:absolute;
+.img-icones {
+   position: absolute;
    width: 28px;
    top: 26px;
    left: -15px;
 }
 
 /* Affiche le contenu des détails lorsque le details est ouvert */
-.details-about-flowers[open] > p {
+.details-about-flowers[open]>p {
    display: block;
 }
 
 /* test les projet */
-.article-about-flowers{
+.article-about-flowers {
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
 }
 
-.details-about-flowers{
+.details-about-flowers {
    width: 570px;
 }
 
-.summary-about-flowers{
+.summary-about-flowers {
    margin-top: 20px;
    margin-bottom: 15px;
    font-size: 1.05rem;
@@ -517,7 +519,7 @@ a :is(span, .icones-color-green){
    padding: 10px;
 }
 
-.details-about-flowers .text-about{ 
+.details-about-flowers .text-about {
    margin-bottom: 15px;
    font-size: 1rem;
    color: #000;
@@ -525,20 +527,20 @@ a :is(span, .icones-color-green){
    line-height: 25px;
 }
 
-.article-about-flowers hr{
+.article-about-flowers hr {
    margin-top: 30px;
    width: 570px;
-   color:#222;
+   color: #222;
 }
 
 /* section de reseaux */
-.section-footer-reseaux{
+.section-footer-reseaux {
    margin-top: 0px;
    background: #eddcd2;
    padding-top: 20px;
 }
 
-.title-reseaux{
+.title-reseaux {
    text-align: center;
    font-size: 1.4rem;
    color: #8bc34a;
@@ -547,12 +549,12 @@ a :is(span, .icones-color-green){
    font-weight: 500;
 }
 
-.footer-reseaux{
+.footer-reseaux {
    width: 100vw;
    height: 150px;
 }
 
-.ul-reseaux-sociaux{
+.ul-reseaux-sociaux {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -561,48 +563,49 @@ a :is(span, .icones-color-green){
    padding-top: 30px;
 }
 
-.ul-reseaux-sociaux .list-reseaux{
+.ul-reseaux-sociaux .list-reseaux {
    background: #8bc34a;
    text-align: center;
    width: 40px;
-   height: 40px; 
+   height: 40px;
    border-radius: 50%;
    font-size: 1.4rem;
    padding-top: 7px;
 }
 
-.list-reseaux .list-reseaux-a{
+.list-reseaux .list-reseaux-a {
    color: #fff;
 }
 
-.section-conatiner-services{
+.section-conatiner-services {
    display: flex;
    justify-content: space-between;
    padding: 0px 3%;
    margin-top: -50px;
 }
 
-.article-services{
+.article-services {
    max-width: 300px;
 }
 
-.container-service{
- width: 100%;
+.container-service {
+   width: 100%;
 }
 
-.title-services{
+.title-services {
    margin-top: 9px;
    margin-bottom: 15px;
    font-size: 1.3rem;
    color: #8bc34a;
    font-family: "Nunito Sans", sans-serif;
 }
-.container-services .lists-items{
+
+.container-services .lists-items {
    list-style: none;
    margin-bottom: 20px;
 }
 
-.lists-items .list-item .list-item-link{
+.lists-items .list-item .list-item-link {
    text-decoration: none;
    color: #000;
    font-size: 1.07rem;
@@ -610,13 +613,13 @@ a :is(span, .icones-color-green){
    line-height: 24px;
 }
 
-.paragraph-list{
+.paragraph-list {
    color: #000;
-   font-size: 1.07rem ;
+   font-size: 1.07rem;
    font-family: "Nunito Sans", sans-serif;
 }
 
-.lists-items-row{
+.lists-items-row {
    display: flex;
    align-items: center;
    gap: 80px;
@@ -624,17 +627,17 @@ a :is(span, .icones-color-green){
    margin-top: 30px;
 }
 
-.list-item-link{
+.list-item-link {
    font-size: 2.3rem;
    color: #8bc34a;
 }
 
-.footer-copyright{
+.footer-copyright {
    background: #265073;
    padding: 20px;
 }
 
-.text-copyright{
+.text-copyright {
    color: #fff;
    text-align: center;
    font-size: 1rem;

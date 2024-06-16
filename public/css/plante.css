@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-*{
+* {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
    max-width: 100%;
 }
 
-.header{
+.header {
    display: flex;
    justify-content: space-between;
    align-items: center;
    padding: 20px 3%;
 }
 
-.header .logo{
+.header .logo {
    font-size: 2rem;
    color: #000;
    list-style: none;
@@ -23,19 +23,19 @@
    font-weight: 700;
 }
 
-a :is(span, .icones-color-green){
-   color:#8bc34a;
+a :is(span, .icones-color-green) {
+   color: #8bc34a;
    font-size: 1.2rem;
 }
 
-.navbar .ul-lists{
+.navbar .ul-lists {
    display: flex;
    align-items: center;
    gap: 80px;
    list-style: none;
 }
 
-.list-link .list-link-a{
+.list-link .list-link-a {
    text-decoration: none;
    font-size: 1rem;
    font-family: "Nunito Sans", sans-serif;
@@ -44,48 +44,48 @@ a :is(span, .icones-color-green){
 
 /* header container */
 
-.section-container{
+.section-container {
    width: 100vw;
 }
 
 
-.link-item{
+.link-item {
    color: #fff;
    font-size: 2rem;
    position: relative;
 }
 
 
-.icones-down-layout{
+.icones-down-layout {
    position: relative;
    left: 6px;
-   top:2px;
+   top: 2px;
 }
 
-.link-hidden{
+.link-hidden {
    display: none;
    flex-direction: column;
    position: absolute;
    top: 140px;
 }
 
-.link-active:hover + .link-hidden{
+.link-active:hover+.link-hidden {
    display: block;
 }
 
-.link-hidden-items{
+.link-hidden-items {
    background: #fff;
    list-style: none;
    padding: 4px 6px 6px 6px;
    border-radius: 4px;
 }
 
-.link-hidden-item{
+.link-hidden-item {
    text-decoration: none;
    line-height: 25px;
 }
 
-.link-item-a{
+.link-item-a {
    text-decoration: none;
    color: #000;
    font-size: 1rem;
@@ -93,26 +93,26 @@ a :is(span, .icones-color-green){
 
 }
 
-.header-container{
+.header-container {
    background: #cad2c5;
 }
 
-.nav-container{
+.nav-container {
    padding: 25px 3%;
 }
 
-.nav-container .ul-container{
+.nav-container .ul-container {
    display: flex;
    justify-content: space-between;
    align-items: center;
    list-style: none;
 }
 
-.ul-container .ul-items{
+.ul-container .ul-items {
    list-style: none;
 }
 
-.link-item .link-item-a{
+.link-item .link-item-a {
    text-decoration: none;
    font-size: 1.1rem;
    font-family: "Nunito Sans", sans-serif;
@@ -120,11 +120,11 @@ a :is(span, .icones-color-green){
 }
 
 
-.ul-container .ul-items{
-      display:flex;
+.ul-container .ul-items {
+   display: flex;
 }
 
-.ul-container .input-search{
+.ul-container .input-search {
    width: 12vw;
    background: #cad2c5;
    padding: 8px 12px;
@@ -157,13 +157,13 @@ a :is(span, .icones-color-green){
 }
 
 /* section de container hero -4 */
-.article-hero-4{
+.article-hero-4 {
    margin-top: 8px;
    padding: 12px 1.6%;
    min-height: 400px;
 }
 
-.figure-hero-4{
+.figure-hero-4 {
    background-image: url(../img/img-principal-4.jpg);
    background-size: cover;
    background-position: center;
@@ -176,7 +176,7 @@ a :is(span, .icones-color-green){
    border-radius: 5px;
 }
 
-.title-hero-4{
+.title-hero-4 {
    margin: 30px auto;
    color: #fff;
    font-size: 3rem;
@@ -185,7 +185,7 @@ a :is(span, .icones-color-green){
 }
 
 /* section de produits */
-.section-container-products{
+.section-container-products {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -201,13 +201,13 @@ a :is(span, .icones-color-green){
    margin-bottom: 20px;
 }
 
-.product-links{
+.product-links {
    text-decoration: none;
    color: #000;
    position: relative;
 }
 
-.product-flowers{
+.product-flowers {
    width: 295px;
    height: 412px;
    margin-bottom: 20px;
@@ -216,7 +216,7 @@ a :is(span, .icones-color-green){
    border-radius: 10px;
 }
 
-.product-flowers > img{
+.product-flowers>img {
    width: 100%;
    height: 270px;
    object-position: center;
@@ -224,7 +224,7 @@ a :is(span, .icones-color-green){
    border-radius: 5px;
 }
 
-.product-flowers h2{
+.product-flowers h2 {
    text-align: center;
    margin-top: 8px;
    font-size: 1rem;
@@ -234,27 +234,27 @@ a :is(span, .icones-color-green){
    position: relative;
 }
 
-.product-flowers h2::before{
+.product-flowers h2::before {
    content: "";
-    position: absolute;
-    background-color: #ADD981;
-    width: 40px;
-    height: 3px;
-    left: 120px;
-    top: 22px;
-    bottom: 0px;
+   position: absolute;
+   background-color: #ADD981;
+   width: 40px;
+   height: 3px;
+   left: 120px;
+   top: 22px;
+   bottom: 0px;
 }
 
-.product-price{
+.product-price {
    text-align: center;
    margin-top: 5px;
    color: #000;
-   font-family: "Nunito Sans", sans-serif; 
+   font-family: "Nunito Sans", sans-serif;
    font-size: 1.2rem;
    font-weight: 800;
 }
 
-.product-flowers p{
+.product-flowers p {
    text-align: center;
    margin-top: 5px;
    font-size: 1rem;
@@ -263,22 +263,22 @@ a :is(span, .icones-color-green){
 }
 
 /* section de livraison */
-.section-container-livraison{
+.section-container-livraison {
    margin-top: 30px;
    padding: 10px 2%;
 }
 
-.title-livraison{
+.title-livraison {
    font-size: 1.4rem;
    font-family: "Nunito Sans", sans-serif;
    color: #222;
 }
 
-.article-livraison-txt{
+.article-livraison-txt {
    margin-top: 20px;
 }
 
-.paragraph-txt{
+.paragraph-txt {
    margin-top: 25px;
    font-size: 1.1rem;
    color: #333;
@@ -286,40 +286,41 @@ a :is(span, .icones-color-green){
 }
 
 /* section de produit sons */
-.section-produit-soins{
+.section-produit-soins {
    margin-top: 50px;
    padding: 0px 2%;
 }
 
-.link-soins{
+.link-soins {
    text-align: center;
 }
 
-.link-soin{
+.link-soin {
    background: #8bc34a;
    text-decoration: none;
    border-radius: 5px;
    padding: 8px 12px;
 }
 
-.link-soin{
+.link-soin {
    color: #fff;
    font-size: 1.3rem;
    font-family: "Nunito Sans", sans-serif;
    font-weight: 700;
 }
 
-.title-soins{
+.title-soins {
    margin-top: 30px;
    font-size: 1.2rem;
    font-family: "Nunito Sans", sans-serif;
    color: #222;
 }
-.article-soin{
+
+.article-soin {
    margin-top: 20px;
 }
 
-.paragraph-soins{
+.paragraph-soins {
    margin-top: 6px;
    font-size: 1.1rem;
    font-family: "Nunito Sans", sans-serif;
@@ -328,12 +329,12 @@ a :is(span, .icones-color-green){
 }
 
 /* footer des réseaux */
-.section-footer-reseaux{
+.section-footer-reseaux {
    background: #eddcd2;
    padding-top: 20px;
 }
 
-.title-reseaux{
+.title-reseaux {
    text-align: center;
    font-size: 1.4rem;
    font-family: "Nunito Sans", sans-serif;
@@ -342,12 +343,12 @@ a :is(span, .icones-color-green){
    font-weight: 500;
 }
 
-.footer-reseaux{
+.footer-reseaux {
    width: 100vw;
    height: 150px;
 }
 
-.ul-reseaux-sociaux{
+.ul-reseaux-sociaux {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -356,49 +357,50 @@ a :is(span, .icones-color-green){
    padding-top: 30px;
 }
 
-.ul-reseaux-sociaux .list-reseaux{
+.ul-reseaux-sociaux .list-reseaux {
    background: #8bc34a;
    text-align: center;
    width: 40px;
-   height: 40px; 
+   height: 40px;
    border-radius: 50%;
    font-size: 1.4rem;
    padding-top: 7px;
 }
 
-.ul-reseaux-sociaux .list-reseaux .list-reseaux-a{
+.ul-reseaux-sociaux .list-reseaux .list-reseaux-a {
    color: #fff;
-   
+
 }
 
-.section-conatiner-services{
+.section-conatiner-services {
    display: flex;
    justify-content: space-between;
    padding: 0px 3%;
    margin-top: -50px;
 }
 
-.article-services{
+.article-services {
    max-width: 300px;
 }
 
-.container-service{
- width: 100%;
+.container-service {
+   width: 100%;
 }
 
-.title-services{
+.title-services {
    margin-top: 9px;
    margin-bottom: 15px;
    font-size: 1.3rem;
    color: #8bc34a;
    font-family: "Nunito Sans", sans-serif;
 }
-.lists-items{
+
+.lists-items {
    list-style: none;
    margin-bottom: 20px;
 }
 
-.list-item-link{
+.list-item-link {
    text-decoration: none;
    color: #000;
    font-size: 1.07rem;
@@ -406,13 +408,13 @@ a :is(span, .icones-color-green){
    line-height: 24px;
 }
 
-.paragraph-list{
+.paragraph-list {
    color: #000;
-   font-size: 1.07rem ;
+   font-size: 1.07rem;
    font-family: "Nunito Sans", sans-serif;
 }
 
-.lists-items-row{
+.lists-items-row {
    display: flex;
    align-items: center;
    gap: 80px;
@@ -420,18 +422,18 @@ a :is(span, .icones-color-green){
    margin-top: 30px;
 }
 
-.lists-items-row .list-item-link{
+.lists-items-row .list-item-link {
    font-size: 2.3rem;
    color: #8bc34a;
 }
 
 
-.footer-copyright{
+.footer-copyright {
    background: #265073;
    padding: 20px;
 }
 
-.text-copyright{
+.text-copyright {
    color: #fff;
    text-align: center;
    font-size: 1rem;
